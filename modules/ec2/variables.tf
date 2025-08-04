@@ -10,7 +10,7 @@ variable "subnetid"{
     type = string 
     description = "Our preferred subnet where we need to launch our machine"
 }
-variable "count"{
+variable "instance_count"{
     type = number 
     description = "Our preferred instance type"
 }
