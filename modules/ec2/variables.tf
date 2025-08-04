@@ -13,7 +13,7 @@ variable "subnetid"{
 variable "count"{
     type = number 
     description = "Our preferred instance type"
-
+}
 variable "env"{
     type = string 
     description = "env name"
