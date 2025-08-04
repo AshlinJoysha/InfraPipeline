@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-      bucket = "infraprojecttrial"
+      bucket = "infraprojectdemo"
       key    = "evironment/dev/terraform.tf"
       region = "ap-southeast-1"
   }
